@@ -13,15 +13,20 @@ pip install -r requirements.txt
 
 For prediction, run any NIfTI image into prediction model with saved weights:
 ```
-python predict_v2.py <NIfTI image.nii.gz>
+python predict_modality.py <NIfTI image.nii.gz>
 ```
 
 For detailed breakdown of prediction on per-slice basis:
 ```
-python predict_v3.py <NIfTI image.nii.gz>
+python prediction_per_slice.py <NIfTI image.nii.gz>
 ```
 
 To view model's detailed breakdown of model validation performance:
 ```
 python confusion_matrix_v2.py
+```
+
+To train from scratch use:
+```
+python training.py
 ```
