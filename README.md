@@ -4,7 +4,7 @@ Medical Image Modality Sorter
 ModalitySort is a deep learning tool for automatic neuroimaging modality classification. It classifies NIfTI brain images into six categories (ncCT, CTA, MRA, T1w, T2w, and FLAIR), serving as a quick preprocessing step before modality-specific imaging pipelines.
 
 Best model weights can be downloaded from here: 
-https://drive.google.com/file/d/1YucpGAeaG9aXMkKlN7RMcteHTxuDrXcp/view?usp=sharing 
+https://drive.google.com/file/d/1vlnBCbZ_Y7k4yYlHJxxqp4M4IUKM2ssV/view?usp=sharing
 
 Install requirements:
 ```
